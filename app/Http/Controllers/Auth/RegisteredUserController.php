@@ -14,6 +14,11 @@ use Illuminate\Support\Facades\Hash;
 use Illuminate\Validation\Rules\Password as RulesPassword;
 use Illuminate\View\View;
 
+/**
+ * Registration is closed, ignore code coverage for now
+ *
+ * @codeCoverageIgnore
+ */
 class RegisteredUserController extends Controller
 {
     /**
